@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Cesar Freddy Jacay Carrasco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="matrix-bg"></canvas>
+    <div class="scanline"></div>
+    <div class="vignette"></div>
+
+    <div class="container">
+        <header class="glass-panel reveal">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="glitch" data-text="MIS PROYECTOS">MIS PROYECTOS</h1>
+                    <h2 class="subtitle">Portafolio de Ciberseguridad</h2>
+                    <div class="contact-info">
+                        <a href="index.html" class="cyber-button" style="border-color: var(--accent-color);"><i
+                                class="fas fa-home"></i> Volver al Inicio</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="projects" class="glass-panel reveal">
+                <h2 class="section-title"><i class="fas fa-project-diagram"></i> PROYECTOS DESTACADOS</h2>
+                <div class="projects-grid">
+                    <div class="project-card cyber-border">
+                        <div class="project-icon"><i class="fab fa-aws"></i></div>
+                        <h3>AWS Security Architecture</h3>
+                        <p>Diseño e implementación de arquitectura segura en AWS usando VPC, IAM, RDS y Lambda con
+                            políticas de acceso de mínimo privilegio.</p>
+                        <div class="project-tags">
+                            <span>AWS</span><span>VPC</span><span>IAM</span><span>Cloud Security</span>
+                        </div>
+                    </div>
+                    <div class="project-card cyber-border">
+                        <div class="project-icon"><i class="fas fa-shield-virus"></i></div>
+                        <h3>SAST Code Analyzer</h3>
+                        <p>Ejecución y automatización de análisis de código fuente estático (SAST) para identificar y
+                            mitigar vulnerabilidades en CI/CD.</p>
+                        <div class="project-tags">
+                            <span>SAST</span><span>AppSec</span><span>DevSecOps</span>
+                        </div>
+                    </div>
+                    <div class="project-card cyber-border">
+                        <a href="https://github.com/CesarJ262/secure-static-site-s3-cloudfront-waf" target="_blank"
+                            class="github-link" title="Ver Repositorio" aria-label="Ver Repositorio en GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="project-icon"><i class="fab fa-aws"></i></div>
+                        <h3>Despliegue de Aplicación Web Segura | AWS</h3>
+                        <p>Implementé una arquitectura de contenido estático altamente disponible y segura, utilizando
+                            una estrategia de defensa en profundidad para mitigar ataques web comunes.</p>
+                        <div class="project-tags">
+                            <span>AWS</span><span>WAF</span><span>CloudFront</span><span>Security</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card cyber-border">
+                        <a href="https://github.com/CesarJ262/aws-threat-detection-response" target="_blank"
+                            class="github-link" title="Ver Repositorio" aria-label="Ver Repositorio en GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Detección de Amenazas y Respuesta | AWS</h3>
+                        <p>Implementé un flujo de trabajo automatizado del Centro de Operaciones de Seguridad (SOC)
+                            centrado en la detección de amenazas en tiempo real y la respuesta automatizada a incidentes
+                            de seguridad.</p>
+                        <div class="project-tags">
+                            <span>AWS</span><span>SOC</span><span>Incident Response</span><span>Automation</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card cyber-border">
+                        <a href="https://github.com/CesarJ262/aws-cognito-secure-auth-mfa" target="_blank"
+                            class="github-link" title="Ver Repositorio" aria-label="Ver Repositorio en GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="project-icon"><i class="fas fa-key"></i></div>
+                        <h3>Gestión de Identidades y Acceso Seguro | AWS</h3>
+                        <p>Implementé un sistema de autenticación serverless utilizando Amazon Cognito con MFA. Diseñé
+                            políticas de IAM dinámicas basadas en el principio de
+                            menor privilegio para garantizar el aislamiento de datos y el control de acceso granular a
+                            recursos de backend.</p>
+                        <div class="project-tags">
+                            <span>AWS</span><span>IAM</span><span>Cognito</span><span>Serverless</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card cyber-border">
+                        <a href="https://github.com/CesarJ262/aws-macie-s3-data-security" target="_blank"
+                            class="github-link" title="Ver Repositorio" aria-label="Ver Repositorio en GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="project-icon"><i class="fas fa-lock"></i></div>
+                        <h3>Seguridad de Datos y Cumplimiento | AWS</h3>
+                        <p>Implementé un sistema automatizado con Amazon Macie y AWS KMS para el descubrimiento,
+                            clasificación y cifrado de datos sensibles (PII/Financieros) en Amazon S3, garantizando el
+                            principio de menor privilegio y la mitigación de fugas de información.</p>
+                        <div class="project-tags">
+                            <span>AWS</span><span>KMS</span><span>Macie</span><span>S3</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="glass-panel reveal">
+            <div class="footer-content">
+                <div class="system-status">
+                    <span class="status-indicator"></span>
+                    <span>SYSTEM ONLINE</span>
+                </div>
+                <p class="footer-text">EOF: End of File. <span class="accent-text">Connection Terminated.</span></p>
+            </div>
+        </footer>
+    </div>
+    <!-- Floating UX Controls -->
+    <div class="floating-controls">
+        <button id="pause-matrix-btn" class="control-btn" aria-label="Pause Background Animation"
+            title="Pause/Play Background">
+            <i class="fas fa-pause"></i>
+        </button>
+        <button id="back-to-top" class="control-btn back-to-top" aria-label="Back to Top" title="Back to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
