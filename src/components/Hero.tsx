@@ -1,9 +1,7 @@
-import { Circle, Database, Shield, Cpu, Lock, Code } from 'lucide-react';
+import { Database, Shield, Cpu, Lock, Code } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useLang } from '../LanguageContext';
 
 export default function Hero() {
-  const { lang } = useLang();
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-24 pb-16 md:pt-32 md:pb-24 relative overflow-hidden">

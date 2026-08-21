@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useLang } from '../LanguageContext';
 import SectionHeading from './SectionHeading';
-import { GraduationCap, BadgeCheck, Shield, Network, Lock, BookOpen } from 'lucide-react';
+import { GraduationCap, BadgeCheck } from 'lucide-react';
 
 export default function Education() {
   const { lang } = useLang();
