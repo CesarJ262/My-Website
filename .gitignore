@@ -1,17 +1,24 @@
-# Ignorar archivos de estado de Terraform (CONTIENEN DATOS SENSIBLES)
-*.tfstate
-*.tfstate.*
-
-# Ignorar la carpeta de plugins de Terraform (pesa mucho y se descarga con init)
-.terraform/
-
-# Ignorar archivos de variables sensibles (si llegas a usarlos)
-*.tfvars
-*.tfvars.json
-
-# Ignorar archivos temporales y logs
-.terraform.lock.hcl
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Ignorar configuración y herramientas del asistente de IA
-.agent/
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
